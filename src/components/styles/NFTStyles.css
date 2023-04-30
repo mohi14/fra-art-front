@@ -1,0 +1,34 @@
+.like-icon {
+    cursor: pointer;
+}
+
+.nft-items .like-icon .icon:hover,
+.nft-items .like-icon .icon-active {
+    -webkit-text-stroke: #d93030;
+    -webkit-text-fill-color: #d93030;
+}
+
+input.input-number[type='number'] {
+    -moz-appearance:textfield;
+}
+input.input-number[type='number']::-webkit-outer-spin-button,
+input.input-number[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input.input-no-border:focus, input.input-no-border:focus{
+    outline: none;
+}
+
+img.f-image {
+    width: 35px;
+    height: 50px;
+    border-radius: 5px;
+}
+span.f-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}

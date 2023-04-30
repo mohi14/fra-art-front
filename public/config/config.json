@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x91C939820c0c679B859a7622f81B5064754dC2eC",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x91C939820c0c679B859a7622f81B5064754dC2eC",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Fraart",
+  "SYMBOL": "BST",
+  "MAX_SUPPLY": 7000,
+  "MAX_BUY_QUANTITY": 20,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/"
+}

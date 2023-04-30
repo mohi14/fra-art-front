@@ -1,0 +1,243 @@
+/* p.btncss{
+     font-size: 18px !important;
+     border: 1px solid red;
+     width: 145px;
+}
+ */
+ .headingcss{
+    /* font-size: 70px;
+     font-weight: 600;
+     background-image: linear-gradient(to left, #553c9a, #b393d3);
+     color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1), 3px 4px 4px rgba(179, 147, 211, 0.15), 4px 6px 4px rgba(179, 147, 211, 0.2), 5px 8px 4px rgab(179, 147, 211, 0.25);
+     */
+     font-size: 70px;
+     font-weight: 600;
+     font-family: 'Roboto', sans-serif;
+     color: #000000;
+     text-transform: uppercase;
+}
+ .trending_btn{
+     background-color: #2c1cea !important;
+     border-radius: 9px;
+     outline: none;
+     color: white !important;
+}
+ .button-34{
+     border-radius: 999px;
+     box-sizing: border-box;
+    /* color: #FFFFFF;
+     */
+     cursor: pointer;
+     font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     opacity: 1;
+     outline: 0 solid transparent;
+     padding: 8px 18px;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     width: fit-content;
+     word-break: break-word;
+     border: 0;
+}
+ .button-34:hover {
+     background: #5E5DF0;
+     border-radius: 999px;
+     box-shadow: #5E5DF0 0 10px 20px -10px;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     opacity: 1;
+     outline: 0 solid transparent;
+     padding: 8px 18px;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     width: fit-content;
+     word-break: break-word;
+     border: 0;
+}
+ .searchbar{
+}
+/* .text-black.py-1.rounded.hover-background.false {
+     margin-right: 15px;
+}
+ */
+ .btn-parent {
+     margin-right: 15px;
+}
+.container.custom__container.my-5 {
+  margin-top: 85px !important;
+}
+ @media (max-width: 1454px) {
+    
+}
+ @media (max-width: 1289px) {
+     .container.custom__container.my-5 {
+           margin-top: 90px !important;
+        /* border: 1px solid red;
+         */
+         padding: 0px 35px;
+    }
+     .button-34.btncss {
+         font-size: 16px;
+    }
+}
+ @media (max-width: 768px) {
+     .table_section2 {
+  margin-top: 54px !important;
+}
+     .flexdiv {
+         display: flex;
+         flex-direction: row;
+    }
+     .sdds {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between !important;
+         align-items: flex-start;
+         width: 100% !important;
+    }
+     .d-flex.justify-content-between {
+         display: flex;
+         height: 55px;
+         flex-direction: column;
+    }
+    .small-img {
+  margin-top: 35px;
+}
+    #connectWallet {
+  /* margin-top: -35px; */
+}
+     .searchbar {
+         margin: 14px 0;
+    }
+     .search.form-control.ps-5 {
+         width: 100% !important;
+         padding: 7px 0px 7px 44px !important;
+    }
+     .search.form-control.ps-5 {
+         margin: 09px 0px;
+    }
+     .ps-5 {
+         padding-left: 35px !important;
+         font-size: 18px !important;
+         letter-spacing: 1px;
+         font-weight: 400;
+         width: 80% !important;
+         margin-top: 0px;
+        /* margin-top: 30px !im portant;
+         */
+    }
+     .trending_section{
+    }
+     .trending_btn{
+    }
+    /* .text-black.py-1.rounded.hover-background.false {
+         margin-right: 15px;
+    }
+     */
+     .button-34.btncss {
+         font-size: 12px;
+    }
+}
+ table {
+    /* display: block;
+     */
+    /* max-width: -moz-fit-content;
+     */
+    /* max-width: fit-content;
+     */
+    /* margin: 0 auto;
+     overflow-x: auto;
+     white-space: nowrap;
+     */
+}
+ @media (max-width: 600px) {
+     table {
+         display: block;
+         max-width: -moz-fit-content;
+         max-width: fit-content;
+         margin: 0 auto;
+         overflow-x: auto;
+         white-space: nowrap;
+    }
+     .select_box_container{
+         width:100%;
+         outline:none;
+    }
+     .select_box_container .form-select{
+         border-radius: 12.25rem !important;
+    }
+     .container.custom__container.my-5 {
+         margin-top: 90px !important;
+    }
+     input:focus{
+         outline: none;
+    }
+     .select_box_container_area{
+         border-radius: 40px !important;
+    }
+     .select_box_container{
+         width: 100%;
+         outline:none;
+    }
+     .table_section table td:first-child {
+         position: sticky;
+         left: 0;
+         width: 60px;
+         z-index: 2;
+         background-color: white;
+    }
+.table_section2 {
+  margin-top: 54px !important;
+}
+}
+/* */
+/* .sticky-col {
+     position: -webkit-sticky;
+     position: sticky;
+     background-color: white !important;
+}
+ */
+ .table_section{
+}
+ .table_section, .table_section2 {
+     width: 100%;
+     overflow-x: scroll;
+}
+ .table_section table td:first-child, table th:first-child {
+     position: sticky;
+     left: 0;
+     width: 50px;
+     z-index: 2;
+     background-color: white;
+}
+ .table_section2 {
+     width: 100%;
+     overflow-x: scroll;
+}
+ .table_section2 table td:first-child, .table_section2 table th:first-child , .table_section2 table th:nth-child(2) , .table_section2 table td:nth-child(2) {
+     position: sticky;
+     left: 0;
+     width: 50px;
+     z-index: 2;
+     background-color: white;
+}
+ .table_section td, .table_section th {
+}
+ .tablefix{
+     max-width: 170px;
+}
+ .col-12.text-left.d-block.btn.btn-primary {
+     text-align: left;
+}

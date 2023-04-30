@@ -1,0 +1,141 @@
+.swiper {
+     width: 100%;
+     height: 100%;
+}
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     display: flex;
+     justify-content: start;
+     align-items: start;
+}
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 120px !important;
+     object-fit: cover;
+}
+/* // */
+/* .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.mySwiper {
+     width: 80%;
+     margin: 20px auto;
+}
+ */
+ a.activeBtn {
+     color: rgb(19, 16, 206);
+    /* background-color: rgb(83, 16, 239) !important;
+     */
+}
+/* */
+ .btn-carousel {
+     background: #ffffff;
+     border-radius: 999px;
+    /* box-shadow: #5E5DF0 0 10px 20px -10px;
+     */
+     box-sizing: border-box;
+     color: #706d6d;
+     cursor: pointer;
+    /* font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+     */
+     font-size: 17px;
+     font-weight: 700;
+     line-height: 24px;
+     opacity: 1;
+     outline: 0 solid transparent;
+     padding: 8px 18px;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     width: fit-content;
+     word-break: break-word;
+     border: 0;
+}
+/* */
+ .swiper-container {
+     width: 480px;
+}
+
+
+ .btn-section{
+     display: flex;
+     flex-direction: row;
+     overflow-x: auto;
+    /* -webkit-flex-flow: row wrap;
+     */
+     flex-flow: row nowrap;
+     white-space:nowrap;
+}
+ .single-btn-area{
+     margin: 0px 12px 0 0;
+     flex-grow: auto;
+     display: block;
+}
+.single-btn.activeTabBtn {
+  background: #4242ec;
+  color: white;
+}
+ .single-btn{
+   padding: 5px;
+border-radius: 10px;
+background: white;
+border: 1px solid #2323;
+}
+ @media (max-width: 640px) {
+     /* .swiper-container {
+         width: 640px;
+    } */
+
+     .parent_img .w-100 {
+         width: 100% !important;
+         height: 180px;
+    }
+    .slider_image.w-100 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+}
+ @media (max-width: 768px) {
+     .swiper-container {
+         width: 768px;
+    }
+    .clock_img.position-absolute.bottom-0.start-0.m-2.bg-gradient-primary.text-white.rounded-pill.px-3 {
+  font-size: 5px;
+}
+
+.title.text-dark.h6 {
+  font-size: 17px !important;
+}
+.text-dark.price-text {
+  font-size: 13px !important;}
+.card-btn.btn.btn-soft-secondary.justify-content-start {
+  font-size: 9px;}
+  .card-btn-img {
+  padding: -2px !important;
+}
+/* */
+/* */
+ .btn-sections{
+}
+
+.title.text-dark.h6 {
+  font-size: 12px !important;
+}
+.d-flex.justify-content-between.mt-2 {
+  font-size: 14px !important;
+}
+}
+ 
+
+.activeTabBtn{
+
+}
+
+.parent_img.w-100 {
+  width: 100% !important;
+  /* aspect-ratio: 3/2; */
+  /* height: 313px !important; */
+}
